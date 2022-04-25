@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import moleImage from './mole.png'
+import moleImage from '../assets/mole.png'
 
 
 
@@ -15,7 +15,7 @@ const Mole = (props)=>{
 
     return (
         <div>
-        <img style={{'width': '30vw'}}
+        <img style={{'width': '25vw'}}
         src={moleImage}
         onClick={props.handleClick} />
         </div>

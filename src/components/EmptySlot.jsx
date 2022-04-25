@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import MoleHill from './molehill.png'
+import MoleHill from "../assets/molehill.png"
 
 const EmptySlot = (props) => {
     
@@ -12,7 +12,7 @@ const EmptySlot = (props) => {
     })
 return (
     <div>
-        <img style={{'width': '30vw'}} src = {MoleHill} />
+        <img style={{'width': '25vw'}} src = {MoleHill} />
     </div>
 )
 }
